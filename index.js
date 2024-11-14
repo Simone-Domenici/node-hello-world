@@ -1,3 +1,7 @@
 const parameter = process.argv[2]
 
-console.log(`Hello ${parameter}`)
+if (parameter === undefined) {
+    console.log('Hello Boolean')   
+} else {
+    console.log(`Hello ${parameter}`)
+}
