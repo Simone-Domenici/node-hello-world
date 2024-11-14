@@ -1,1 +1,3 @@
-console.log('Hello Boolean')
+const parameter = process.argv[2]
+
+console.log(`Hello ${parameter}`)
